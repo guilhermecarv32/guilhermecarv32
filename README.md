@@ -91,6 +91,4 @@ void main() {
       construindo: 'Soluções reais para problemas reais',
     ),
   );
-
-  print(eu);
 }
