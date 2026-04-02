@@ -4,9 +4,9 @@ Initializing Dart VM...
 Dart VM is ready to use.
 Para entrar em contato, envie um email para `guilhermecm1505@gmail.com`.
 C:\Users\guilherme> type main.dart
-// Inspired by monster555
 ```
 ```dart
+// Inspired by monster555
 void main() {
   const cargo = 'Desenvolvedor Flutter';
   const foco = 'Aplicações Mobile';
