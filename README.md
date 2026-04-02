@@ -4,8 +4,6 @@ Dart VM pronta para uso.
 
 Para entrar em contato, envie um email para guilhermecm1505@gmail.com.
 
-MacBook-Pro:~ guilherme$ cat ./main.dart
-
 ```dart
 void main() {
   // Definições principais
