@@ -1,3 +1,4 @@
+```dart
 Inicializando Dart VM...
 
 Dart VM pronta para uso.
@@ -5,7 +6,7 @@ Dart VM pronta para uso.
 Para entrar em contato, envie um email para guilhermecm1505@gmail.com.
 
 C:\Users\guilherme> type main.dart
-
+```
 ```dart
 void main() {
   const cargo = 'Desenvolvedor Flutter';
