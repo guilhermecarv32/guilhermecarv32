@@ -6,7 +6,6 @@ Para entrar em contato, envie um email para guilhermecm1505@gmail.com.
 
 ```dart
 void main() {
-  // Definições principais
   const cargo = 'Desenvolvedor Flutter';
   const foco = 'Aplicações Mobile';
 
@@ -15,20 +14,17 @@ void main() {
     cargo: cargo,
     foco: foco,
 
-    // Contato direto
     contato: Contato(
       email: Uri.parse('mailto:guilhermecm1505@gmail.com'),
       linkedin: Uri.https('www.linkedin.com', 'in/guilherme-carvalho-mobdev'),
       github: Uri.https('github.com', 'guilhermecarv32'),
     ),
 
-    // Especialidade principal
     flutter: FlutterInfo(
       anosExperiencia: '2+',
       possuiAppsPublicados: true,
       qtdApps: '20+', // E contando...
 
-      // Principais features que já trabalhei
       principaisRecursos: <String>[
         'Integração com APIs REST',
         'Autenticação',
@@ -37,7 +33,6 @@ void main() {
       ],
     ),
 
-    // Experiência backend (porque mobile nunca vem sozinho)
     backend: BackendInfo(
       stacks: <String>[
         'Node.js',
@@ -52,8 +47,8 @@ void main() {
         'Integrações com serviços externos',
       ],
     ),
-
-    outrasHabilidades: <String>[
+    
+    outrasHabilidades: <String>[ // Mais relevantes
       'React',
       'PostgreSQL',
       'Firebase',
@@ -61,7 +56,6 @@ void main() {
       'HTML / CSS',
     ],
 
-    // Projetos mais relevantes
     projetos_relevantes: <Projeto>[
       Projeto(
         'XPlearn',
@@ -89,7 +83,6 @@ void main() {
       ),
     ],
 
-    // Estado atual
     status: Status(
       aprendendo: true,
       abertoParaOportunidades: true,
@@ -97,6 +90,5 @@ void main() {
     ),
   );
 
-  // Debug
   print(eu);
 }
