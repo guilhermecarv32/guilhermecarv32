@@ -24,7 +24,6 @@ void main() {
       anosExperiencia: '2+',
       possuiAppsPublicados: true,
       qtdApps: '20+', // E contando...
-
       principaisRecursos: <String>[
         'Integração com APIs REST',
         'Autenticação',
