@@ -6,7 +6,6 @@ Para entrar em contato, envie um email para `guilhermecm1505@gmail.com`.
 C:\Users\guilherme> type main.dart
 ```
 ```dart
-// Inspired by monster555
 void main() {
   const cargo = 'Desenvolvedor Flutter';
   const foco = 'Aplicações Mobile';
@@ -92,3 +91,4 @@ void main() {
     ),
   );
 }
+// Inspired by monster555
