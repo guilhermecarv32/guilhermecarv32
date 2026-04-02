@@ -52,6 +52,7 @@ void main() {
     // Outras habilidades relevantes
     outrasHabilidades: <String>[
       'React',
+      'Python',
       'PostgreSQL',
       'Firebase',
       'UI / UX',
