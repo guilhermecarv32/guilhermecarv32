@@ -94,28 +94,3 @@ void main() {
 
   print(eu);
 }
-```
-
-C:\Users\guilherme> dart run main.dart
-
-✔ Nome: Guilherme Carvalho
-✔ Cargo: Desenvolvedor Flutter
-✔ Foco: Aplicações Mobile
-
-📱 Flutter:
-- Experiência: 2+ anos
-- Apps publicados: sim
-- Quantidade: 20+
-
-⚙️ Backend:
-- Node.js, FastAPI, Spring Boot, PHP
-
-🧠 Outras habilidades:
-- React, PostgreSQL, Firebase, UI/UX, HTML/CSS
-
-🚀 Status:
-- Aprendendo: sim
-- Aberto para oportunidades: sim
-- Construindo: Soluções reais para problemas reais
-
-✨ Execução finalizada com sucesso.
