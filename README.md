@@ -1,76 +1,87 @@
-# 👋 Olá, eu sou o Guilherme Souza
+Inicializando Dart VM...
 
-💙 Desenvolvedor Mobile | Flutter  
-🚀 Construindo aplicações reais com foco em performance e experiência  
+Dart VM pronta para uso.
 
----
+Para entrar em contato, envie um email para guilhermecm1505@gmail.com.
 
-## 🧠 Sobre mim
+```dart
+void main() {
+  const cargo = 'Desenvolvedor Flutter';
+  const foco = 'Aplicações Mobile';
 
-Desenvolvedor com experiência em criação de aplicações completas, com forte foco em mobile utilizando Flutter.
+  final eu = InformacoesPessoais(
+    nome: 'Guilherme Carvalho',
+    cargo: cargo,
+    foco: foco,
 
-Atuo também com backend, integrações e automações, sempre buscando soluções eficientes, escaláveis e aplicáveis no mundo real.
+    contato: Contato(
+      email: Uri.parse('mailto:guilhermecm1505@gmail.com'),
+      linkedin: Uri.https('www.linkedin.com', 'in/guilherme-carvalho-mobdev'),
+      github: Uri.https('github.com', 'guilhermecarv32'),
+    ),
 
----
+    flutter: FlutterInfo(
+      anosExperiencia: '2+',
+      possuiAppsPublicados: true,
+      qtdApps: '20+', // E contando...
+      principaisRecursos: <String>[
+        'Integração com APIs REST',
+        'Autenticação',
+        'Consumo de dados em tempo real',
+        'Interfaces limpas e responsivas',
+      ],
+    ),
 
-## 🚀 Tecnologias
+    backend: BackendInfo(
+      stacks: <String>[
+        'Node.js',
+        'FastAPI',
+        'Spring Boot',
+        'PHP',
+      ],
+      atuacao: <String>[
+        'Construção de APIs REST',
+        'Automações com Python',
+        'Processamento de dados',
+        'Integrações com serviços externos',
+      ],
+    ),
 
-### 📱 Mobile
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+    outrasHabilidades: <String>[
+      'React',
+      'PostgreSQL',
+      'Firebase',
+      'UI / UX',
+      'HTML / CSS',
+    ],
 
-### 🌐 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+    projetos_relevantes: <Projeto>[
+      Projeto(
+        'XPlearn',
+        descricao: 'Plataforma gamificada de estudos',
+        stack: ['FastAPI', 'Quasar'],
+      ),
+      Projeto(
+        'Dança+',
+        descricao: 'Aplicativo gamificado com foco no engajamento de alunos de escolas de dança',
+        stack: ['Flutter', 'Firebase'],
+      ),
+      Projeto(
+        'Dani e Ellas',
+        descricao: 'Sistema de loja usado em negócio real',
+        stack: ['Electron', 'Firebase'],
+      ),
+      Projeto(
+        'Expenses App',
+        descricao: 'Aplicativo mobile de controle financeiro',
+        stack: ['Flutter'],
+      ),
+    ],
 
-### ⚙️ Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Spring Boot](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-
-### 🗄️ Banco de dados
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-
----
-
-## 📱 Foco atual
-
-- Desenvolvimento mobile com Flutter
-- Integração com APIs REST
-- Apps voltados para uso real (produção)
-- Performance e UX
-
----
-
-## 📊 Estatísticas
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&theme=tokyonight&hide_border=true)
-
----
-
-## 🔥 Atividade
-
-![GitHub Streak](https://streak-stats.demolab.com?user=SEU_USERNAME&theme=tokyonight&hide_border=true)
-
----
-
-## 🚀 Projetos em destaque
-
-📌 Aplicações mobile com Flutter em produção  
-📌 Sistemas web com React + APIs REST  
-📌 Automações com Python e integrações externas  
-
----
-
-## 📫 Contato
-
-- LinkedIn: https://linkedin.com/in/SEU-LINK
-- Email: seuemail@email.com  
-
----
-
-💡 *Transformando ideias em aplicações reais.*
+    status: Status(
+      aprendendo: true,
+      abertoParaOportunidades: true,
+      construindo: 'Soluções reais para problemas reais',
+    ),
+  );
+}
