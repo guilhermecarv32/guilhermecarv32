@@ -4,6 +4,7 @@ Initializing Dart VM...
 Dart VM is ready to use.
 Para entrar em contato, envie um email para `guilhermecm1505@gmail.com`.
 C:\Users\guilherme> type main.dart
+// Inspired by monster555
 ```
 ```dart
 void main() {
